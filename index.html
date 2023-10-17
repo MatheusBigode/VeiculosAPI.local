@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Buscar veículo</h1>
+        <input type="text" id="plate" placeholder="Insira a placa do veículo">&nbsp;
+        <br>
+        <button onclick="busca()" id="busca">Buscar</button>
+        <br>
+        <input type="text" id="brand" placeholder="Marca" readonly>
+        <br>
+        <input type="text" id="model" placeholder="Modelo" readonly>
+        <br>
+        <input type="text" id="year" placeholder="Ano" readonly>
+        <br>
+        <input type="text" id="color" placeholder="Cor" readonly>
+        <br>
+        <button onclick="limpa()" id="limpa">Limpar</button>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+</html>
